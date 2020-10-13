@@ -47,6 +47,10 @@ body {
  font-weight: 700;
  letter-spacing: .3rem;
 }
+.logo a {
+  text-decoration: none;
+  color: #000000;
+}
 .color-logo {
  color: var(--primaryColor);
 }
@@ -476,5 +480,26 @@ footer {
 .warranty__wrap {
   max-width: 800px;
   margin: 0 auto;
+  font-size: 14px;
+  padding: 30px 20px;
+}
+.warranty-list {
+  margin: 10px 0 10px 40px;
 }
 /* End of Warranty */
+
+/* Delievery */
+.delievery__wrap {
+  padding: 30px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.delievery__wrap p {
+  margin-bottom: 15px;
+}
+.delivery-title {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+/* End of Delievery */
