@@ -221,6 +221,9 @@ class Storage {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  (function() {
+    const anchors = document.querySelectorAll('a[href^="#"]')
+  })();
  const ui = new UI();
  const products = new Products();
 //  setup app
