@@ -454,3 +454,20 @@ footer {
   }
 }
 /* End of Contacts */
+
+/* About */
+.about-wrap {
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 1.3em;
+  color: #333;
+}
+.about-wrap p {
+  margin-bottom: 15px;
+}
+@media ( max-width: 767px) {
+  .about-wrap img {
+    display: none;
+  }
+}
+/* End of About */
