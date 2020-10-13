@@ -354,3 +354,10 @@ footer {
     font-size: 3rem;
   }
 }
+
+/* Contacts */
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+/* End of Contacts */
